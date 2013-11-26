@@ -19,8 +19,8 @@ import java.util.List;
  */
 public class UrlCheck {
     public ArrayList<ArrayList<String>> check(){
-        ReadExcel readExcel = new ReadExcel("/home/utsav/Desktop/testWrite.xls");
-        //ReadExcel readExcel = new ReadExcel("/home/utsav/CodeRepository/UrlTest/InputExcel/inputExcel.xls");
+        //ReadExcel readExcel = new ReadExcel("/home/utsav/Desktop/testWrite.xls");
+        ReadExcel readExcel = new ReadExcel("/home/utsav/CodeRepository/UrlTest/InputExcel/inputExcel.xls");
         ArrayList<ArrayList<String>> cells = readExcel.readData();
         int num = cells.size();
         int i=0, j=1, k=0;
