@@ -11,4 +11,5 @@ out/production/UrlTest/com/check/ReadExcel.class
 out/production/UrlTest/com/check/UrlCheck.class
 out/production/UrlTest/com/check/WriteExcel.class
 .gitignore~
-
+out/
+OutputExcel/
